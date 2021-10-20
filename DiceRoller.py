@@ -2,21 +2,11 @@ import random
 import sys
 
 
-def diceRoll2():
-        dice2 = random.randint(1,2)  
-        print("Your number is " + str(dice2) + "!")
-def diceRoll4():
-        dice4 = random.randint(1,4)  
-        print("Your number is " + str(dice4) + "!")
-def diceRoll6():
-        dice6 = random.randint(1,6)  
-        print("Your number is " + str(dice6) + "!")
-def diceRoll10():
-        dice10 = random.randint(1,10)  
-        print("Your number is " + str(dice10) + "!")
-def diceRoll20():
-        dice20 = random.randint(1,20)  
-        print("Your number is " + str(dice20) + "!")
+def diceRoll(n: int) -> int:
+        dice = random.randint(1,n)  
+        print("Your number is " + str(dice) + "!")
+        return dice
+
 
 while 1:  
   die_num = input("What are the number of sides on the die? (2/4/6/10/20): ")
