@@ -10,11 +10,13 @@ def diceRoll(n: int) -> int:
 
 while True:  
   die_num = input("What are the number of sides on the die? (2/4/6/10/20): ")
-  question = input("Roll the dice? y/n: ")
   
   if die_num not in ['2', '4', '6', '10', '20']:
     break
 
+  question = input("Roll the dice? y/n: ")
+  
+  
     if die_num == "2":
       print(question)
     if question == "y":
