@@ -16,8 +16,15 @@ while True:
 
   question = input("Roll the dice? y/n: ")
   
+  if question == "n":
+    print("Aborting...")
+    sys.exit()
+  else:
+    pass
+
   if die_num == "2":
-    print(question)
+    print(question) # This print statement is the reason you get that printed question"
+    
     if question == "y":
       diceRoll2()
   if question == "n":
