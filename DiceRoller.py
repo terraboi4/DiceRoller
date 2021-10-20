@@ -2,10 +2,14 @@ import random
 import sys
 
 def diceRoll(n: int) -> int:
-        dice = random.randint(1,n)  
-        print("Your number is " + str(dice) + "!\n")
+  '''
+  You can make this general to be for any n or you could do the 
+  check of n here
+  '''
+  dice = random.randint(1,n)  
+  print("Your number is " + str(dice) + "!\n")
 
-def roll():
+def roll() ->None:
   '''
   A method to begin rolling the die.
   Continue to ask the two main quesions and roll the die until
