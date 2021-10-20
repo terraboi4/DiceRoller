@@ -16,9 +16,8 @@ while True:
 
   question = input("Roll the dice? y/n: ")
   
-  
-    if die_num == "2":
-      print(question)
+  if die_num == "2":
+    print(question)
     if question == "y":
       diceRoll2()
   if question == "n":
