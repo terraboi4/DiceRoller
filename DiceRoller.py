@@ -8,7 +8,7 @@ def diceRoll(n: int) -> int:
         return dice
 
 
-while 1:  
+while True:  
   die_num = input("What are the number of sides on the die? (2/4/6/10/20): ")
   question = input("Roll the dice? y/n: ")
   
