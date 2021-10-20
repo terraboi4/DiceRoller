@@ -1,3 +1,5 @@
 Dice Roller Generator.
 
-help from @chumytz
+Choose the number of sides and roll the die!
+
+help from @chuymtz
